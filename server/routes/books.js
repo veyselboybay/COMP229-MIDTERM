@@ -88,7 +88,7 @@ router.post('/edit/:id', (req, res, next) => {
     if(err)
     {
       console.log(err);
-      res.render(err);
+      res.end(err);
     }
     else
     {
